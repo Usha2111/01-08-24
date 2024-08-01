@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <style> 
+    
+
+    img {
+        width: 50px;
+        height: 40px;
+        margin-left: 10px;
+        position: relative;
+        top: 10px;
+    }
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .head {
+        border: 2px solid;
+        display: flex;
+        width: 100%;
+        gap: 30px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        position: relative;
+        
+    }
+
+    input {
+        border-radius: 38px;
+        margin: 8x;
+        position: relative;
+        top: 8px;
+        height: 40px;
+        border: 1px solid gray;
+    }
+
+    input::placeholder {
+        text-indent: 25px;
+    }
+    .a::after {
+        content: '▼';
+    }
+
+    .flex:hover {
+        background-color: black
+    }
+    .search{
+        position: relative;
+        top:20px;
+        right: 70px;
+    }
+    .circle {
+        position:relative;
+        top: 5px;
+        right: 20px;
+    }
+
+    .star {
+        width: 10px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: end;
+    }
+
+    li {
+        width: 140px;
+        text-align: center;
+    }
+
+    .log{
+        background-color:turquoise;
+        padding: 10px;
+        width: 70px;
+        text-align: center;
+        border-radius: 38px;
+    }
+
+    .sig {
+        background-color: darkgreen;
+        width: 70px;
+        padding: 10px;
+        gap: 0px;
+        margin-right: -10px;
+        text-align: center;
+        color: white;
+        border-radius: 38px;
+    }
+
+    #text {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .space::before {
+        content: '</>';
+        color: purple;
+
+    }
+
+    .car{
+        color: purple;
+    }
+    .navbar {
+        display: flex;
+        justify-content: start;
+        overflow-x: auto;
+        scrollbar-width: none;
+        gap: 20px;
+        width: 100%;
+        cursor: pointer;
+        background-color:darkblue;
+        color: white;
+    }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <img src="./W3Schools_logo.svg.png" alt="">
+            <p class="a">Tutorials</p>
+            <p class="a">Exercises</p>
+            <p class="a">Certificates</p>
+            <p class="a">Services</p>
+            <input type="text" name="search" id="search" placeholder="Search...">
+            <span><i class="fa-solid fa-magnifying-glass search"></i></span>
+            <span style="font-size: 30px;" class="circle">&#9681</span>
+            <ul type="none">
+                <li><span class="space">space</span></li>
+                <li><i class="fa-solid fa-cart-shopping car"></i><span>&ensp;Get Certified</span></li>
+                <li class="sig">Sign Up</li>
+                <li class="log">Login</li>
+            </ul>
+        </div>
+        <div class="navbar">
+            <div class="flex">HTML </div>
+            <div class="flex">CSS</div>
+            <div class="flex">JAVASCRIPT</div>
+            <div class="flex">SQL</div>
+            <div class="flex">PYTHON</div>
+            <div class="flex">JAVA</div>
+            <div class="flex">PHP</div>
+            <div class="flex">HOW_TO</div>
+            <div class="flex">W3.CSS</div>
+            <div class="flex">C</div>
+            <div class="flex">C#</div>
+            <div class="flex">C+</div>
+            <div class="flex">BOOTSTRAP</div>
+            <div class="flex">REACT</div>
+            <div class="flex">MYSQL</div>
+            <div class="flex">EXCEL</div>
+            <div class="flex">XML</div>
+            <div class="flex">DJANGO</div>
+            <div class="flex">NUMPY</div>
+            <div class="flex">PANDAS</div>
+            <div class="flex">NODEJS</div>
+            <div class="flex">R</div>
+            <div class="flex">TYPESCRIPT</div>
+            <div class="flex">ANGULAR</div>
+            <div class="flex">GIT</div>
+            <div class="flex">POSTGRESQL</div>
+            <div class="flex">MONGODB</div>
+            <div class="flex">ASP</div>
+            <div class="flex">AI</div>
+            <div class="flex">GO</div>
+            <div class="flex">DSA</div>
+            <div class="flex">AWS</div>
+            <div class="flex">DATA_SCIENCE</div>
+        </div>
+
+    </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
